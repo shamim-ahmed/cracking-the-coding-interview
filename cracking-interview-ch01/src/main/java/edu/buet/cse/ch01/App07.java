@@ -6,7 +6,19 @@ package edu.buet.cse.ch01;
  */
 public class App07 {
   public static void main(String... args) {
+    int[][] values = new int[5][7];
     
+    for (int i = 0; i < values.length; i++) {
+      for (int j = 0; j < values[i].length; j++) {
+        values[i][j] = i + j + 1;
+      }
+    }
+    
+    values[1][2] = 0;
+    values[3][4] = 0;
+    
+    resetRowsAndColumns(values);
+    printValues(values);
   }
   
   public static void resetRowsAndColumns(int[][] values) {
@@ -34,6 +46,16 @@ public class App07 {
           values[i][j] = 0;
         }
       }
+    }
+  }
+  
+  private static void printValues(int[][] values) {
+    for (int[] a : values) {
+      for (int n : a) {
+        System.out.printf("%3d", n);
+      }
+      
+      System.out.println();
     }
   }
 }
