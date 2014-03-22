@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>edu.buet.cse</groupId>
-  <artifactId>cracking-interview-ch01</artifactId>
+  <artifactId>cracking-interview-ch02</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>cracking-interview-ch01</name>
+  <name>cracking-interview-ch02</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -15,6 +15,13 @@
   </properties>
 
   <dependencies>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.3</version>
+      <scope>compile</scope>
+    </dependency>
+    
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -36,5 +43,4 @@
       </plugin>
     </plugins>
   </build>
-  
 </project>
