@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
  *
  * @author shamim
  */
-public class SinglyLinkedLIstTest {
+public class SinglyLinkedListTest {
   @Test
   public void testAddFirstAndRemoveFirst() {
     SinglyLinkedList<Integer> values = new SinglyLinkedList<>();
