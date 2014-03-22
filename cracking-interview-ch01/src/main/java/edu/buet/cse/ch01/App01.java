@@ -1,5 +1,9 @@
 package edu.buet.cse.ch01;
 
+/**
+ * 1.1 Determine if a string is composed of unique characters
+ * @author shamim
+ */
 public class App01 {
   private static final int ASCII_SET_SIZE = 256;
   

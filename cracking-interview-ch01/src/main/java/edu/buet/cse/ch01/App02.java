@@ -1,7 +1,7 @@
 package edu.buet.cse.ch01;
 
 /**
- *
+ * 1.2 Reverse a string
  * @author shamim
  */
 public class App02 {
