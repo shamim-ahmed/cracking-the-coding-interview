@@ -13,6 +13,10 @@ public class App08 {
   }
   
   public static boolean isRotationOf(String s, String t) {
+    if (s == null || t == null) {
+      throw new IllegalArgumentException("argument cannot be null");
+    }
+    
     if (s.length() != t.length()) {
       return false;
     }

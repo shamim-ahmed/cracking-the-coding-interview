@@ -11,6 +11,10 @@ public class App02 {
   }
   
   public static String reverse(String input) {
+    if (input == null) {
+      return null;
+    }
+    
     char[] charArray = input.toCharArray();
     
     for (int i = 0, j = charArray.length - 1; i < j; i++, j--) {

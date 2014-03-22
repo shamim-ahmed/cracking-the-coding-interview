@@ -15,6 +15,10 @@ public class App01 {
   
   // we assume that all characters are from ASCII character set
   public static boolean isComposedOfUniqueCharacters(String input) {
+    if (input == null) {
+      throw new IllegalArgumentException("argument cannot be null");
+    }
+    
     boolean result = true;
     boolean[] status = new boolean[ASCII_SET_SIZE];
     

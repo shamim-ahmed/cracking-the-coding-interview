@@ -11,6 +11,10 @@ public class App05_2 {
   }
   
   private static String replaceSpace(String input) {
+    if (input == null) {
+      return null;
+    }
+    
     char[] inputChars = input.toCharArray();
     int count = 0;
     

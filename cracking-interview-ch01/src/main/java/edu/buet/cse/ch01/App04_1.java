@@ -16,6 +16,10 @@ public class App04_1 {
   }
 
   public static boolean isAnagram(String firstStr, String secondStr) {
+    if (firstStr == null || secondStr == null) {
+      throw new IllegalArgumentException("argument cannot be null");
+    }
+    
     if (firstStr.length() != secondStr.length()) {
       return false;
     }
