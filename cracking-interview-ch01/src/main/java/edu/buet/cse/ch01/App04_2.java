@@ -4,7 +4,7 @@ package edu.buet.cse.ch01;
  *
  * @author shamim
  */
-public class AnagramDetector2 {
+public class App04_2 {
   private static final int MAX = 256;
   
   public static void main(String... args) {

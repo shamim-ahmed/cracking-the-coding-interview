@@ -7,7 +7,7 @@ import java.util.Arrays;
  *
  * @author shamim
  */
-public class AnagramDetector {
+public class App04_1 {
 
   public static void main(String... args) {
     String input1 = "Vladimir Nabokov";
